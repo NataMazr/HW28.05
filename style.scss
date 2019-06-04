@@ -1,0 +1,26 @@
+body {
+    background-color: green;
+    .all {
+        width: 700px;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        .mains {
+            img {
+                width: 700px;
+                height: 450px;
+            }
+        }
+        .child {
+            display: flex;
+            flex-direction: row;
+            width: 450px;
+            img {
+                width: 230px;
+                height: 185px;
+                padding-right: 5px;
+            }
+        }
+    }
+}
